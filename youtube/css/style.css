@@ -1,0 +1,76 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* PLAYER */
+.player-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.col-large {
+    width: calc(100% - 300px);
+    height: 100%;
+
+}
+
+.col-small {
+    width: 300px;
+    height: 100%;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.toolbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 3px solid red;
+    background-color: rgba(0,0,0, .4);
+}
+
+.toolbar img {
+    width: 80px;
+}
+
+/* Card */
+.card {
+    display: flex;
+    padding: 10px;
+}
+
+.card-image {
+    width: 50%;
+}
+
+.card-text {
+    width: 50%;
+    padding: 10px;
+}

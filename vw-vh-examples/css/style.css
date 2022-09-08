@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* height: 200px; */
+    background-color: red;
+}
+
+.inner {
+    background-color: grey;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.box {
+    width: 100%;
+    /* height: 200px; */
+    background-color: green;
+}

@@ -1,0 +1,33 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* PLAYER */
+.player-wrapper {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    height: calc(100% - 100px);
+    background-color: lightblue;
+    overflow: auto;
+}
+
+.toolbar {
+    height: 100px;
+    background-color: pink;
+}
