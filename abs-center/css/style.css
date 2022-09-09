@@ -4,12 +4,43 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    padding: 20px;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu li {
+    margin: 0 10px;
+}
+
+.header-menu li a {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
 }
 
 
